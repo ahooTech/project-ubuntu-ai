@@ -1,0 +1,1 @@
+﻿# ServiceStatusCheck.ps1

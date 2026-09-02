@@ -1,0 +1,1 @@
+﻿# AzureResourceInventory.ps1

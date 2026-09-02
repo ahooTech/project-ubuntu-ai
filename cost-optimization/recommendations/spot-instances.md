@@ -1,0 +1,1 @@
+﻿# spot-instances.md

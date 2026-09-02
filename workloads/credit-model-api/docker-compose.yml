@@ -1,0 +1,20 @@
+﻿# docker-compose.yml
+version: '3.8'
+
+services:
+  credit-model-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: credit-model-api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    restart: unless-stopped
+    networks:
+      - ubuntu-ai-network
+
+networks:
+  ubuntu-ai-network:
+    driver: bridge

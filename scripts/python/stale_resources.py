@@ -1,0 +1,1 @@
+﻿# stale_resources.py
